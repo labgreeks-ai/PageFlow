@@ -1,0 +1,7 @@
+# Let Git normalise line endings, but keep Windows batch files as CRLF
+* text=auto
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+*.png binary
+*.ico binary
